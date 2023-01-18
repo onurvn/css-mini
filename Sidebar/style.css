@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size:46px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    background-color: blueviolet;
+    width: 300px;
+    padding: 10px;
+	border-radius: 2px;
+}
+
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: 300ms all ease ;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+nav ul li:hover {
+    background-color: lightblue;
+    padding: 20px 30px;
+	border-radius: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li span {
+    float: right;
+    color: #fff;
+}

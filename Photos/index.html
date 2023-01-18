@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+
+        div {
+            position: absolute;
+            top: 0;
+            left: 300px;
+
+        }
+
+        .resim {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+
+        }
+
+        .resim+img {
+            width: 900px;
+            position: absolute;
+            display: none;
+
+
+        }
+
+        .resim:hover+img {
+            display: block;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="img/1.jpg" alt="" class="resim">
+        <img src="img/1.jpg" alt="">
+        <img src="img/2.jpg" alt="" class="resim">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="" class="resim">
+        <img src="img/3.jpg" alt="">
+    </div>
+
+
+</body>
+
+</html>
